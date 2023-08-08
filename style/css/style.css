@@ -1,0 +1,164 @@
+:root {
+    --maingreen: #b4d3a7;
+    --bgcolor: #f07f5f;
+    --middlegreen: #c6dab5;
+    --lightgreen: #dde5ce;
+    --bordercolor: #e84841;
+    --whitecolor: #fff;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url(../../fonts/MPLUSRounded1c-Regular.ttf) format('ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url(../../fonts/MPLUSRounded1c-Thin.ttf) format('ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url(../../fonts/MPLUSRounded1c-Medium.ttf) format('ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url(../../fonts/MPLUSRounded1c-Light.ttf) format('ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url(../../fonts/MPLUSRounded1c-Bold.ttf) format('ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url(../../fonts/MPLUSRounded1c-ExtraBold.ttf) format('ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url(../../fonts/MPLUSRounded1c-Black.ttf) format('ttf');
+    font-weight: 900;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.logo {
+    width: 150px;
+}
+
+.bg-main {
+    background-color: var(--bgcolor);
+}
+
+a {
+    color: var(--whitecolor);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--maingreen);
+}
+
+.bg-green {
+    background-color: var(--maingreen);
+}
+
+.my-btn {
+    background-color: var(--maingreen);
+    border: var(--maingreen);
+    padding: 10px 20px;
+    color: var(--bordercolor);
+}
+
+.my-btn:hover {
+    background-color: var(--bordercolor);
+    color: var(--whitecolor);
+}
+
+.dropp {
+    background-color: var(--maingreen);
+}
+
+.social-image {
+    fill: var(--bordercolor);
+}
+
+.social-image:hover {
+    fill: var(--maingreen);
+}
+
+.bg-card {
+    background-color: var(--bgcolor);
+}
+
+.discribe {
+    background-color: var(--lightgreen);
+}
+
+.discribe__title {
+    color: var(--bordercolor);
+}
+
+.bg-sect {
+    background-color: var(--maingreen);
+}
+
+.text-sect {
+    color: var(--bordercolor);
+}
+
+.gift-image {
+    fill: var(--bordercolor);
+}
+
+.middle-block {
+    display: flex;
+    gap: 50px;
+}
+
+.projects {
+    background-color: var(--bgcolor);
+}
+
+.carousel-inner img {
+    object-fit: contain;
+    vertical-align: middle;
+    border-style: none;
+    height: 400px !important;
+    margin: 0 auto;
+}
+
+.articles-link {
+    color: var(--bordercolor);
+}
+
+.donat-sect {
+    background-color: var(--lightgreen);
+}
+
+.btn-donat {
+    background-color: var(--bordercolor);
+}
+
+.btn-donat:hover {
+    background-color: var(--maingreen);
+}
+
+.bg-footer {
+    background-color: gray;
+}
+
+.form-donat {
+    max-width: 300px;
+}
